@@ -84,38 +84,6 @@ class _PLaylistScreenState extends State<PLaylistScreen> {
                     context: context,
                     playlistTitle: 'Playlist Three',
                   ),
-                  playlistNameScreen(
-                    context: context,
-                    playlistTitle: 'Playlist Four',
-                  ),
-                  playlistNameScreen(
-                    context: context,
-                    playlistTitle: 'Playlist Five',
-                  ),
-                  playlistNameScreen(
-                    context: context,
-                    playlistTitle: 'Playlist Six',
-                  ),
-                  playlistNameScreen(
-                    context: context,
-                    playlistTitle: 'Playlist Seven',
-                  ),
-                  playlistNameScreen(
-                    context: context,
-                    playlistTitle: 'Playlist Eight',
-                  ),
-                  playlistNameScreen(
-                    context: context,
-                    playlistTitle: 'Playlist Nine',
-                  ),
-                  playlistNameScreen(
-                    context: context,
-                    playlistTitle: 'Playlist Ten',
-                  ),
-                  playlistNameScreen(
-                    context: context,
-                    playlistTitle: 'Playlist Eleven',
-                  ),
                 ],
               ),
             ),

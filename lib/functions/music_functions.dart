@@ -111,12 +111,6 @@ Widget functionMiniPlayer(BuildContext context) {
                       color: Colors.white,
                     ),
                   ),
-                  //      Padding(
-                  //   padding: const EdgeInsets.only(bottom: 32,right: 0,left: 0),
-                  //   child: IconButton(onPressed: () {
-                  //          miniPlayerVisibility.value = false;
-                  //       }, icon: const Icon(Icons.close,size: 20,color: Colors.white,)),
-                  // ),
                 ],
               ),
               const SizedBox(
@@ -143,7 +137,9 @@ Widget playlistNameScreen({required String playlistTitle, context}) {
           child: ListTile(
             leading: const CircleAvatar(
                 radius: 28,
-                backgroundImage: AssetImage('assets/audio/music-note.png')),
+                backgroundImage: AssetImage(
+                  'assets/music-notes.png',
+                )),
             title: Text(
               playlistTitle,
               style: const TextStyle(
@@ -159,9 +155,7 @@ Widget playlistNameScreen({required String playlistTitle, context}) {
                 if (value == MyListMenu.item1) {
                 } else if (value == MyListMenu.item2) {
                 } else if (value == MyListMenu.item3) {
-//            Navigator.of(context).push(MaterialPageRoute(builder: (ctx2){
-// return OpenPlaylistScreen(playListDeatails: playlistTitle);
-//      }));
+//
                 }
               },
               icon: const Icon(
@@ -201,9 +195,7 @@ Widget playlistNameScreen({required String playlistTitle, context}) {
               ],
             ),
             onTap: () {
-//                   Navigator.of(context).push(MaterialPageRoute(builder: (ctx2){
-// return OpenPlaylistScreen(playListDeatails: playlistTitle);
-//      }));
+//
             },
           ),
         )),
@@ -215,6 +207,3 @@ enum MyListMenu {
   item2,
   item3,
 }
-
-//---------------Playlist screen End--------------------------------
-
